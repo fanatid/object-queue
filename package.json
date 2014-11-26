@@ -1,0 +1,32 @@
+{
+  "name": "object-queue",
+  "version": "1.0.0",
+  "repository": "git://github.com/fanatid/object-queue",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "queue",
+  "keywords": [
+    "queue",
+    "fifo",
+    "data",
+    "structure"
+  ],
+  "contributors": [
+    {
+      "name": "Fomichev Kirill",
+      "email": "fanatid@ya.ru"
+    }
+  ],
+  "scripts": {
+    "jscs": " ./node_modules/.bin/jscs -c .jscs index.js test.js benchmark.js",
+    "jshint": "./node_modules/.bin/jshint -c .jshint index.js test.js benchmark.js",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "fifo": "^0.2.0",
+    "jscs": "^1.7.3",
+    "jshint": "^2.5.10",
+    "tape": "^3.0.3"
+  }
+}
